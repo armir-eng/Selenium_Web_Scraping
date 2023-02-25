@@ -1,0 +1,15 @@
+This is a project I've worked for during my job as a Data Engineer.
+
+The client is a working tools manufacturing company. It monitors prices of its products in different retailers those products are available in.
+
+It wants to make sure that there are no price violations. So, we scrape all those sites and see if the product price is lower than the one specified by the client, it is considered as a violation.
+
+Basically, we compare the price provided by the client with the one on site.
+ 
+The client has provided us a file with all products' data, called "input list". The boolean field "Violation" is the most important one that client considers. It is the essence of the project, actually.
+    - There are two types of prices for each product:
+	- IMAP price, which is the regular one
+	- Promo price, specified for two different periods:
+	    - If the extraction date is within one of these periods, the promo price of that period is used for comparison.
+
+
