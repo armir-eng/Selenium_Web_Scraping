@@ -1,4 +1,4 @@
-This is a project I've worked for during my job as a Data Engineer.
+This is a project I've worked on during my job as a Data Engineer.
 
 The client is a working tools manufacturing company. It monitors prices of its products in different retailers those products are available in.
 
